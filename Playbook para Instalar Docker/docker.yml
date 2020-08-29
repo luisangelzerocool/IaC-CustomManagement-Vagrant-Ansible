@@ -1,6 +1,6 @@
 ---
 - name: Install Docker
-  hosts: test1
+  hosts: host_1
   become: yes #Poder convertirse en usuario con privilegios
  
   tasks:
